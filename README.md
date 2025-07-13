@@ -1,2 +1,2 @@
 # ThyBuckTech.github.io
-hola
+Malla Curricular de Nutricion y Dietetica
