@@ -1,11 +1,19 @@
 body {
-  font-family: sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
+  background: #fff0f5; /* rosado claro */
 }
 
+.ramo {
+  background-color: #e91e63; /* rosa fuerte */
+}
+
+.ramo.dependiente {
+  background-color: #f8bbd0; /* rosa suave desactivado */
+}
+
+.ramo:hover {
+  transform: scale(1.05);
+  background-color: #d81b60; /* tono más oscuro al pasar el mouse */
+}
 h1 {
   color: #2c3e50;
 }
