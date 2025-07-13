@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Nutrición UBB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Interactiva - Nutrición y Dietética UBB</h1>
+
+  <div class="grid">
+    <!-- Semestre 1 -->
+    <div class="semestre">
+      <h2>1° Semestre</h2>
+      <div class="ramo" id="bioquimica" onclick="toggleDependientes('bioquimica')">Bioquímica</div>
+      <div class="ramo" id="anatomia" onclick="toggleDependientes('anatomia')">Anatomía</div>
+    </div>
+
+    <!-- Semestre 2 -->
+    <div class="semestre">
+      <h2>2° Semestre</h2>
+      <div class="ramo dependiente bioquimica" id="fisiologia">Fisiología</div>
+      <div class="ramo dependiente anatomia" id="nutricion1">Nutrición 1</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
