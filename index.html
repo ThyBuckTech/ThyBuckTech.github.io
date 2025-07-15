@@ -1,38 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Malla Nutrición UBB</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Nutrición y Dietética UBB</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Malla Interactiva - Nutrición y Dietética UBB</h1>
-
-  <div class="grid">
-<!-- Semestre 1 -->
-<div class="semestre">
-  <h2>1° Semestre</h2>
-  <div class="ramo" id="biologia" onclick="toggleDependientes('biologia')">Biología</div>
-  <div class="ramo" id="quimica" onclick="toggleDependientes('quimica')">Química General y Orgánica</div>
-  <div class="ramo" id="morfologia" onclick="toggleDependientes('morfologia')">Morfología</div>
-  <div class="ramo" id="alimentos" onclick="toggleDependientes('alimentos')">Los Alimentos en la Nutrición Humana</div>
-  <div class="ramo" id="formacion1" onclick="toggleDependientes('formacion1')">Formación Integral Institucional</div>
-  <div class="ramo" id="ingles1" onclick="toggleDependientes('ingles1')">Inglés Comunicacional I</div>
-</div>
-
-<!-- Semestre 2 -->
-<div class="semestre">
-  <h2>2° Semestre</h2>
-  <div class="ramo dependiente quimica" id="bioquimica">Bioquímica Nutricional</div>
-  <div class="ramo dependiente biologia morfologia" id="fisiologia">Fisiología Humana</div>
-  <div class="ramo dependiente alimentos" id="tecnicas">Técnicas Dietéticas</div>
-  <div class="ramo" id="formacion2" onclick="toggleDependientes('formacion2')">Formación Integral Extra Programática</div>
-  <div class="ramo dependiente ingles1" id="ingles2">Inglés Comunicacional II</div>
-  <div class="ramo dependiente alimentos tecnicas" id="taller1">Taller Integrador de Alimentación Saludable</div>
-  <div class="ramo dependiente matematicafantasma" id="matematica">Matemática</div>
-</div>
-
+  <header>
+    <h1>Malla Interactiva - Nutrición y Dietética UBB</h1>
+  </header>
+  <main id="malla-container"></main>
   <script src="script.js"></script>
 </body>
 </html>
