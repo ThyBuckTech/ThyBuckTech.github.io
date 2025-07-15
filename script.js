@@ -6,66 +6,71 @@ const malla = {
     "Los Alimentos en la Nutrición Humana",
     "Formación Integral Oferta Institucional",
     "Inglés Comunicacional I",
-    "Matemática"
   ],
   "2° Semestre": [
+    "Matemática"
     "Bioquímica Nutricional",
     "Fisiología Humana",
     "Técnicas Dietéticas",
     "Formación Integral Extra Programática",
-    "Inglés Comunicacional II"
+    "Inglés Comunicacional II",
+    "Taller Integrador de Alimentación Saludable"
   ],
   "3° Semestre": [
     "Microbiología y Parasitología",
+    "Metabolismo y Nutrición",
     "Salud Pública",
+    "Evaluación del Estado Nutricional",
     "Formación Integral Oferta Institucional",
-    "Bioestadística en Nutrición y Salud",
-    "Dietética"
+    "Inglés Comunicacional III"
   ],
   "4° Semestre": [
-    "Metabolismo y Nutrición",
-    "Evaluación del Estado Nutricional",
-    "Higiene y Control Sanitario de los Alimentos en un SAN",
+    "Higiene y Control Sanitario de los Alimentos",
+    "Bioestadística en Nutrición y Salud",
     "Psicología en Salud y Alimentación",
-    "Formación Integral Extra Programática"
+    "Dietética",
+    "Formación Integral Extra Programática",
+    "Inglés Comunicacional IV"
+    ""Taller Integrador de Intervención Alimentario Nutricional en el Ciclo Vital",
   ],
   "5° Semestre": [
+    "Nutrición en el Procesamiento Tecnológico de los Alimentos",
     "Administración en Salud y Alimentación",
-    "Alimentación y Nutrición en la Actividad Física",
-    "Taller Integrador de Intervención Alimentario Nutricional en el Ciclo Vital",
     "Fisiopatología y Farmacología en la Nutrición",
-    "Formación Integral Oferta Institucional"
+    "Alimentación y Nutrición en la Actividad Física",
+    "Formación Integral Oferta Institucional",
+    "Inglés Técnico"
   ],
   "6° Semestre": [
-    "Nutrición en el Procesamiento Tecnológico de los Alimentos",
+    "Gestión de Servicios de Alimentación y Nutrición",
     "Bioética en Nutrición y Salud Pública",
-    "Epidemiología Nutricional",
     "Dietoterapia del Adulto y Adulto Mayor",
     "Comunicación y Educación en Alimentación y Nutrición",
     "Taller Integrador de Alimentación Colectiva"
   ],
   "7° Semestre": [
-    "Gestión de Servicios de Alimentación y Nutrición",
+    "Epidemiología Nutricional",
+    "Metodología de Investigación en Alimentación y Nutrición",
     "Dietoterapia Materno Infantil",
-    "Electivo I para Certificación**",
-    "Investigación Aplicada a la Ciencia de la Nutrición"
+    "Alimentación y Nutrición Comunitaria",
+    "Electivo I para Certificación**"
   ],
   "8° Semestre": [
-    "Metodología de Investigación en Alimentación y Nutrición",
-    "Alimentación y Nutrición Comunitaria",
     "Alimentación Colectiva y Gastronomía",
+    "Investigación Aplicada a la Ciencia de la Nutrición",
     "Avances en Alimentación y Nutrición",
-    "Electivo II para Certificación**",
-    "Taller integrador de Nutrición Clínica"
+    "Taller integrador de Nutrición Clínica",
+    "Electivo II para Certificación**"
   ],
   "9° Semestre": [
     "Práctica Profesional de Alimentación Colectiva",
     "Formulación y Evaluación de Proyectos",
-    "Práctica Profesional de Nutrición Comunitaria"
+    "Electivo *",
+    "Electivo III para Certificación**"
   ],
   "10° Semestre": [
+    "Práctica Profesional de Nutrición Comunitaria"
     "Práctica Profesional de Nutrición Clínica",
-    "Electivo III para Certificación**"
   ]
 };
 
