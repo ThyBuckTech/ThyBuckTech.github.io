@@ -79,7 +79,7 @@ const dependencias = {
   "Higiene y Control Sanitario de Los Alimentos": ["Microbiología y Parasitología"]
   "Nutrición en el Procesamiento Tecnológico de los Alimentos": ["Higiene y Control Sanitario de Los Alimentos"]
   "Bioquímica Nutricional": ["Química General y Orgánica"],
-  "
+  
   "Fisiología Humana": ["Morfología"],
   "Técnicas Dietéticas": ["Los Alimentos en la Nutrición Humana"],
   "Metabolismo y Nutrición": ["Bioquímica Nutricional", "Fisiología Humana"],
