@@ -106,7 +106,6 @@ for (const [semestre, asignaturas] of Object.entries(malla)) {
     div.className = "asignatura";
     div.textContent = asig;
 
-    // Si tiene dependencias, la bloqueamos
     if (Object.keys(dependencias).includes(asig)) {
       div.classList.add("bloqueada");
     } else {
@@ -116,27 +115,28 @@ for (const [semestre, asignaturas] of Object.entries(malla)) {
     div.addEventListener("click", () => {
       div.classList.add("completada");
 
-// Activar asignaturas dependientes
-for (let [hija, requisitos] of Object.entries(dependencias)) {
-  if (requisitos.includes(asig)) {
-    const allAsignaturas = document.querySelectorAll(".asignatura");
+      for (let [hija, requisitos] of Object.entries(dependencias)) {
+        if (requisitos.includes(asig)) {
+          const allAsignaturas = document.querySelectorAll(".asignatura");
 
-    allAsignaturas.forEach(asigDom => {
-      if (asigDom.textContent === hija) {
-        asigDom.classList.remove("bloqueada");
-        asigDom.classList.add("activa");
-        asigDom.style.cursor = "pointer";
+          allAsignaturas.forEach(asigDom => {
+            if (asigDom.textContent === hija) {
+              asigDom.classList.remove("bloqueada");
+              asigDom.classList.add("activa");
+              asigDom.style.cursor = "pointer";
 
-        // Animación extra visual
-        asigDom.style.transition = "all 0.4s ease-in-out";
-        asigDom.style.transform = "scale(1.05)";
-        setTimeout(() => {
-          asigDom.style.transform = "scale(1)";
-        }, 300);
+              // Animación extra visual
+              asigDom.style.transition = "all 0.4s ease-in-out";
+              asigDom.style.transform = "scale(1.05)";
+              setTimeout(() => {
+                asigDom.style.transform = "scale(1)";
+              }, 300);
+            }
+          });
+        }
       }
     });
-  }
-}
+
     bloque.appendChild(div);
     estadoAsignaturas[asig] = div;
   });
