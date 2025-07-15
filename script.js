@@ -5,10 +5,10 @@ const malla = {
     "Morfología",
     "Los Alimentos en la Nutrición Humana",
     "Formación Integral Oferta Institucional",
-    "Inglés Comunicacional I",
+    "Inglés Comunicacional I"
   ],
   "2° Semestre": [
-    "Matemática"
+    "Matemática",
     "Bioquímica Nutricional",
     "Fisiología Humana",
     "Técnicas Dietéticas",
@@ -30,8 +30,8 @@ const malla = {
     "Psicología en Salud y Alimentación",
     "Dietética",
     "Formación Integral Extra Programática",
-    "Inglés Comunicacional IV"
-    ""Taller Integrador de Intervención Alimentario Nutricional en el Ciclo Vital",
+    "Inglés Comunicacional IV",
+    "Taller Integrador de Intervención Alimentario Nutricional en el Ciclo Vital"
   ],
   "5° Semestre": [
     "Nutrición en el Procesamiento Tecnológico de los Alimentos",
@@ -69,18 +69,21 @@ const malla = {
     "Electivo III para Certificación**"
   ],
   "10° Semestre": [
-    "Práctica Profesional de Nutrición Comunitaria"
-    "Práctica Profesional de Nutrición Clínica",
+    "Práctica Profesional de Nutrición Comunitaria",
+    "Práctica Profesional de Nutrición Clínica"
   ]
 };
 
 const dependencias = {
+  "Microbiología y Parasitología": ["Biología"]
+  "Higiene y Control Sanitario de Los Alimentos": ["Microbiología y Parasitología"]
+  "Nutrición en el Procesamiento Tecnológico de los Alimentos": ["Higiene y Control Sanitario de Los Alimentos"]
   "Bioquímica Nutricional": ["Química General y Orgánica"],
-  "Fisiología Humana": ["Biología"],
+  "
+  "Fisiología Humana": ["Morfología"],
   "Técnicas Dietéticas": ["Los Alimentos en la Nutrición Humana"],
   "Metabolismo y Nutrición": ["Bioquímica Nutricional", "Fisiología Humana"],
   "Evaluación del Estado Nutricional": ["Fisiología Humana"],
-  "Higiene y Control Sanitario de los Alimentos en un SAN": ["Microbiología y Parasitología"],
   "Dietética": ["Técnicas Dietéticas"],
   "Alimentación y Nutrición en la Actividad Física": ["Metabolismo y Nutrición"],
   "Fisiopatología y Farmacología en la Nutrición": ["Metabolismo y Nutrición"],
