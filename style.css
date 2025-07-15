@@ -37,26 +37,35 @@ header {
 .asignatura {
   background-color: var(--color-hover);
   margin: 0.3rem 0;
-  padding: 0.5rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  font-weight: 500;
 }
 
 .asignatura:hover {
   background-color: var(--color-principal);
+  transform: scale(1.03);
 }
 
-@media (max-width: 600px) {
-  header {
-    font-size: 1.2rem;
-  }
 .asignatura.bloqueada {
   opacity: 0.4;
   pointer-events: none;
+  background-color: #eee;
+  color: #888;
+  transform: none;
 }
 
 .asignatura.activa {
   opacity: 1;
   pointer-events: auto;
+  background-color: var(--color-hover);
+  color: #333;
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { transform: scale(0.95); opacity: 0.1; }
+  to   { transform: scale(1); opacity: 1; }
 }
