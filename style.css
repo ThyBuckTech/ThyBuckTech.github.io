@@ -51,4 +51,12 @@ header {
   header {
     font-size: 1.2rem;
   }
+.asignatura.bloqueada {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.asignatura.activa {
+  opacity: 1;
+  pointer-events: auto;
 }
