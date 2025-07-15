@@ -1,56 +1,54 @@
+:root {
+  --color-principal: #f8c1d9;
+  --color-fondo: #fff0f5;
+  --color-texto: #333;
+  --color-hover: #ffe3ed;
+}
+
 body {
-  background: #fff0f5; /* rosado claro */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
 }
 
-.ramo {
-  background-color: #e91e63; /* rosa fuerte */
-}
-
-.ramo.dependiente {
-  background-color: #f8bbd0; /* rosa suave desactivado */
-}
-
-.ramo:hover {
-  transform: scale(1.05);
-  background-color: #d81b60; /* tono más oscuro al pasar el mouse */
-}
-h1 {
-  color: #2c3e50;
-}
-
-.grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
+header {
+  background-color: var(--color-principal);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .semestre {
-  background: white;
+  border: 2px solid var(--color-principal);
+  margin: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 200px;
+  padding: 1rem;
+  background-color: white;
 }
 
-.ramo {
-  background-color: #3498db;
-  color: white;
-  padding: 10px;
-  margin-top: 10px;
+.semestre h2 {
+  color: #c71585;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.asignatura {
+  background-color: var(--color-hover);
+  margin: 0.3rem 0;
+  padding: 0.5rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: background 0.3s;
 }
 
-.ramo:hover {
-  transform: scale(1.05);
+.asignatura:hover {
+  background-color: var(--color-principal);
 }
 
-.ramo.dependiente {
-  background-color: #95a5a6;
-  cursor: not-allowed;
-  opacity: 0.6;
-  pointer-events: none;
+@media (max-width: 600px) {
+  header {
+    font-size: 1.2rem;
+  }
 }
