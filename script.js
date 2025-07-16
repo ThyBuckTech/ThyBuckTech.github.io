@@ -25,7 +25,7 @@ const malla = {
     "Inglés Comunicacional III"
   ],
   "4° Semestre": [
-    "Higiene y Control Sanitario de los Alimentos",
+    "Higiene y Control Sanitario de Los Alimentos",
     "Bioestadística en Nutrición y Salud",
     "Psicología en Salud y Alimentación",
     "Dietética",
