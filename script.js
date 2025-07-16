@@ -75,13 +75,25 @@ const malla = {
 };
 
 const dependencias = {
-  "Microbiología y Parasitología": ["Biología"]
-  "Higiene y Control Sanitario de Los Alimentos": ["Microbiología y Parasitología"]
-  "Nutrición en el Procesamiento Tecnológico de los Alimentos": ["Higiene y Control Sanitario de Los Alimentos"]
+  "Microbiología y Parasitología": ["Biología"],
+  "Higiene y Control Sanitario de Los Alimentos": ["Microbiología y Parasitología"],
+  "Nutrición en el Procesamiento Tecnológico de los Alimentos": ["Higiene y Control Sanitario de Los Alimentos"],
   "Bioquímica Nutricional": ["Química General y Orgánica"],
-  
+  "Metabolismo y Nutrición": ["Bioquímica Nutricional"],
+  "Evaluación del Estado Nutricional": ["Bioquímica Nutricional"],
+  "Dietética": ["Evaluación del Estado Nutricional"],
+  "Taller Integrador de Intervención Alimentario Nutricional en el Ciclo vital": ["Dietética","Taller Integrador de Alimentación Saludable"],
+  "Fisiopatología y Farmacología en la Nutrición": ["Metabolismo y Nutrición"],
+  "Alimentación y Nutrición en la Actividad Física": ["Metabolismo y Nutrición", "Dietética"],
+  "Dietoterapia del Adulto y Adulto Mayor": ["Fisiopatología y Farmacología en la Nutrición", "Dietética"],
+  "Dietoterapia Materno Infantil": ["Dietoterapia del Adulto y Adulto Mayor"],
+  "Avances en Alimentación y Nutrición": ["Dietoterapia Materno Infantil"],
+  "Taller integrador de Nutrición Clínica":["Avances en Alimentación y Nutrición"],
   "Fisiología Humana": ["Morfología"],
   "Técnicas Dietéticas": ["Los Alimentos en la Nutrición Humana"],
+   "Evaluación del Estado Nutricional": ["Técnicas Dietéticas"],
+  "Taller Integrador de Alimentación Saludable": ["Técnicas Dietéticas", "Taller Integrador de Alimentación Saludable"],
+  
   "Metabolismo y Nutrición": ["Bioquímica Nutricional", "Fisiología Humana"],
   "Evaluación del Estado Nutricional": ["Fisiología Humana"],
   "Dietética": ["Técnicas Dietéticas"],
